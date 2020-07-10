@@ -16,9 +16,9 @@ end
 
 def take_a_number(katz_deli, name)
 katz_deli.push(name)
-line_num << ("#{index + 1}. #{line}")
+
 end
-puts "Welcome, #{line}. You are number #{index} in line."
+puts "Welcome, #{name}. You are number #{index} in line."
 end
 
 def now_serving
