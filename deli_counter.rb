@@ -23,7 +23,7 @@ def now_serving(katz_deli)
   if katz_deli.empty?
     puts "Line is empty."
   else
-    puts "Currently serving #{katz_deli}"
+    puts "Currently serving #{katz_deli.join}"
     katz_deli.shift
   end
 end
