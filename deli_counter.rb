@@ -17,7 +17,7 @@ end
 def take_a_number(katz_deli, line)
     line_num= []
 katz_deli.each_with_index do |line, index|
-line_num << ("#{index + 1}. #{name}")
+line_num << ("#{index + 1}. #{line}")
 end
 puts "Welcome, #{line}. You are number #{index} in line."
 end
