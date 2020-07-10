@@ -16,10 +16,10 @@ end
 
 def take_a_number(katz_deli, line)
     line_num= []
-katz_deli.each_with_index do |name, index|
+katz_deli.each_with_index do |line, index|
 line_num << ("#{index + 1}. #{name}")
 end
-puts "Welcome, #{name}. You are number #{index} in line."
+puts "Welcome, #{line}. You are number #{index} in line."
 end
 
 def now_serving
