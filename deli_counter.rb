@@ -18,9 +18,8 @@ def take_a_number(katz_deli, name)
     line_num= []
 name.each_with_index{|name, index|
 line_num << ("Welcome, #{name + 1}. You are number #{index + 1} in line.")
-
-   line_num
 }
+
 end
 
 def now_serving
