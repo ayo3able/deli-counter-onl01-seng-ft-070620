@@ -14,7 +14,7 @@ def line(people)
   end
 end
 
-def take_a_number(katz_deli, name)
+def take_a_number(katz_deli, line)
     line_num= []
 katz_deli.each_with_index do |name, index|
 line_num << ("#{index + 1}. #{name}")
