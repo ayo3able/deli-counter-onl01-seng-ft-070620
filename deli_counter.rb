@@ -16,7 +16,7 @@ end
 
 def take_a_number(katz_deli, name)
     line_num= []
-name.each_with_index do |name, index|
+katz_deli.each_with_index do |name, index|
 line_num << ("#{index + 1}. #{name + 1}")
 end
 puts "Welcome, #{name + 1}. You are number #{index + 1} in line."
